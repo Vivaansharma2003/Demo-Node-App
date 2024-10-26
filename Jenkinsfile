@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git url: 'https://github.com/PlatJack/my-node-app.git', branch: 'master'
+                git url: 'https://github.com/Vivaansharma2003/Demo-Node-App.git', branch: 'master'
             }
         }
         
